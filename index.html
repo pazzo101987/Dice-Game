@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>JavaScript</title>
+    <style>
+      /* #player1,
+      #player2 {
+        display: inline-block;
+        width: 200px;
+        height: 140px;
+        border: 1px solid black;
+        padding: 5px;
+        margin: 25px;
+        text-align: center;
+        font-size: 7em;
+      } */
+      #output {
+        width: 450px;
+        text-align: center;
+        font-size: 2em;
+      }
+      button {
+        padding: 10px;
+        text-align: center;
+        width: 610px;
+      }
+      .dicer {
+        border: 1px solid black;
+        width: 90px;
+        height: 90px;
+        padding: 2px;
+        border-radius: 10px;
+      }
+      .black {
+        background-color: black;
+      }
+      .white {
+        background-color: white;
+      }
+      .dot {
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 2px;
+      }
+      .viewer {
+        display: inline-block;
+        width: 200px;
+        height: 150px;
+        border: 1px solid black;
+        padding: 50px;
+      }
+      .namer {
+        display: inline-block;
+        font-family: cursive;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="gameArea">
+      <div id="output"></div>
+      <div class="viewer">
+        <span class="namer">Player 1</span>
+        <span id="player1"></span>
+      </div>
+      <div class="viewer">
+        <span class="namer">Player 2</span>
+        <span id="player2"></span>
+      </div>
+      <!-- <div id="player1"></div>
+      <div id="player2"></div> -->
+      <!-- These are related to vesrion 1 -->
+    </div>
+    <button type="button">Roll</button>
+    <script src="script.js"></script>
+  </body>
+</html>
